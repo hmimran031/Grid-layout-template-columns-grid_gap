@@ -8,9 +8,13 @@
   grid-template-columns: repeat(3, 1fr) 350px;
   justify-content: center;
   align-content: center;
+  height: 250px;
+  /*align item er jonno height must*/
+  align-items: center;
+  border: 1px solid red;
 }
 .item {
-  border: 1px solid red;
+  border: 1px solid yellowgreen;
   display: grid;
   justify-items: center;
 }
